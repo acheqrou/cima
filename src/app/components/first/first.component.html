@@ -1,0 +1,27 @@
+<!--div>
+  <label for="createAccountInput">Create New Account</label>
+  <input placeholder="..." id="createAccountInput" [(ngModel)]="accountName">
+  <button id="createAccountButton" (click)="createAccount()" >Create Account</button>
+  <div>
+    <input [ngModel]="searchTerm.value" (ngModelChange)="searchTerm.setValue($event)">
+    <input [ngModel]="searchTerme()" (ngModelChange)="searchTerme.set($event)">
+  </div>
+</div-->
+
+
+<div class="cima">
+  <br>
+  <br>
+  <span style="color: aliceblue; margin-left: 450px; margin-top: 30px; font-size: 50px">{{episode}}</span>
+  <br>
+
+  <br>
+  <br>
+
+
+  <button class="pre" (click)="pre(episode)">PREVIOUS 🐵</button>
+  <button class="btn" (click)="open(episode)">OPEN 🐵</button>
+  <button class="nxt" (click)="next(episode)">NEXT 🐵</button>
+
+
+</div>
